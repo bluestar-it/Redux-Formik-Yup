@@ -11,7 +11,7 @@ export default function AddEditUser() {
     <div id="add-edit-user-container" >
         <h2>User Management</h2>
         <div id="add-edit-user">
-        <Contact></Contact>
+      <AddUser></AddUser>
     <User></User>
         </div>
    

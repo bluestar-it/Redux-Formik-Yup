@@ -1,6 +1,6 @@
 
 import './App.css';
-import Contact from './components/Contact1';
+import Contact from './components/Contact';
 import AddEditUser from './components/AddEditUser';
 import Navbar from './components/navbar'
 
@@ -10,7 +10,7 @@ function App() {
     <>
     <Navbar></Navbar>
    <AddEditUser></AddEditUser>
-   {/* <Contact></Contact> */}
+   <Contact></Contact>
 
     </>
   );
