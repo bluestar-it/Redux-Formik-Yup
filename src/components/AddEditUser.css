@@ -1,0 +1,41 @@
+#add-edit-user-container h2, #add-user h3{
+    text-align: center;
+}
+
+#add-edit-user-container {
+    padding-top: 80px;
+    background-color: hsl(194deg 100% 95%);
+
+}
+#add-edit-user{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.contact-container{
+    width: 50%;
+    height: fit-content;
+    margin: 0 30px;
+    padding: 20px 40px 20px 0;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+#add-user .ant-btn {
+    margin-right: 20px;
+  }
+
+#edit-user{
+    width: 50%;
+    height: fit-content;
+    margin: 30px;
+    margin-right: 30px;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+    background: white;
+
+   
+}
+
+#edit-user .ant-list-item{
+    flex-wrap: wrap;
+}
